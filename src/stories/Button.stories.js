@@ -1,4 +1,6 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from 'react';
+import { action } from '@storybook/addon-actions';
 import Button from '../components/Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -16,7 +18,7 @@ export default {
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (args) => <Button {...args}>{args.label}</Button>;
+const Template = (args) => <Button handleClick={action("click")} {...args}>{args.label}</Button>;
 
 export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
