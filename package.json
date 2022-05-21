@@ -10,7 +10,8 @@
   "release": {
     "branches": [
       "master"
-    ],
+    ]
+  },
   "main": "dist/index.js",
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
