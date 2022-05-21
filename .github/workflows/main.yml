@@ -17,7 +17,7 @@ jobs:
       - name: Semantic release
       uses: cycjimmy/semantic-release-action@v3
     with:
-      semantic_version: 19.0.2
+      semantic_version: 19
       # you can set branches for semantic-release above v16.
       branches: |    
         [
@@ -39,3 +39,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+    
