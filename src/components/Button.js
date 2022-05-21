@@ -11,8 +11,8 @@ export default function Button({children, handleClick, color,background, backgro
  * propTypes definition
  */
 Button.propTypes = {
-    color: PropTypes.string.isRequired,
-    backgroundColor: PropTypes.string.isRequired,
+    color: PropTypes.string,
+    backgroundColor: PropTypes.string,
     borderRadius: PropTypes.number,
     handleClick: PropTypes.func,
     height: PropTypes.string,
