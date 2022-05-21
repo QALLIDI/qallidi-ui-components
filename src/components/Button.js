@@ -7,7 +7,9 @@ export default function Button({children, handleClick, color,background, backgro
         {children}
     </StyledButton>);
 }
-
+/**
+ * propTypes definition
+ */
 Button.propTypes = {
     color: PropTypes.string.isRequired,
     backgroundColor: PropTypes.string.isRequired,
