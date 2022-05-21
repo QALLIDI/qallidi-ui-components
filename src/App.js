@@ -2,7 +2,7 @@ import Button from "./components/Button";
 function App() {
   return (
     <div>
-      <Button>Click Me</Button>
+      <Button>UI Button</Button>
     </div>
   );
 }
