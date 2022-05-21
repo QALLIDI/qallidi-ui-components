@@ -3,15 +3,6 @@
   "description": "publishing a project that use storybook and contains costum components",
   "version": "2.0.0",
   "author": "QALLIDI MOHAMMED AMINE <qallidimohammedamine@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/QALLIDI/qallidi-ui-components.git"
-  },
-  "release": {
-    "branches": [
-      "master"
-    ],
-  "main": "dist/index.js",
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
@@ -79,5 +70,22 @@
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
     "webpack": "^5.72.1"
-  }
+  },
+  "peerDependencies": {
+    "semantic-release": ">=19.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QALLIDI/qallidi-ui-components.git"
+  },
+  "release": {
+    "branches": [
+      "master",
+      "main"
+    ]
+  },
+  "homepage": "https://github.com/QALLIDI/qallidi-ui-components/blob/main/README.md",
+  "contributors": [
+    "QALLIDI MOHAMMED AMINE <qallidimohammedamine@gmail.com>"
+  ]
 }
