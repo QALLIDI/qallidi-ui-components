@@ -15,22 +15,6 @@ jobs:
       - name: Build app
         run: npm run build 
       - name: Semantic release
-      branches: |    
-        [
-          '+([0-9])?(.{+([0-9]),x}).x',
-          'master', 
-          'main',
-          'next', 
-          'next-major', 
-          {
-            name: 'beta', 
-            prerelease: true
-          }, 
-          {
-            name: 'alpha', 
-            prerelease: true
-          }
-        ]
       env:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
