@@ -1,7 +1,7 @@
 {
   "name": "qallidi-ui-components",
   "description": "publishing a project that use storybook and contains costum components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "QALLIDI MOHAMMED AMINE <qallidimohammedamine@gmail.com>",
   "files": [
     "dist"
