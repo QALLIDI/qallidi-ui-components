@@ -3,6 +3,10 @@
   "description": "publishing a project that use storybook and contains costum components",
   "version": "2.0.0",
   "author": "QALLIDI MOHAMMED AMINE <qallidimohammedamine@gmail.com>",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
@@ -32,16 +36,6 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "overrides": [
-      {
-        "files": [
-          "dist"
-        ],
-        "rules": {
-          "import/no-anonymous-default-export": "off"
-        }
-      }
     ]
   },
   "browserslist": {
