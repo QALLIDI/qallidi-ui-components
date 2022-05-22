@@ -1,12 +1,9 @@
 {
   "name": "qallidi-ui-components",
   "description": "publishing a project that use storybook and contains costum components",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "QALLIDI MOHAMMED AMINE <qallidimohammedamine@gmail.com>",
-  "files": [
-    "src"
-  ],
-  "main": "src/index.js",
+  "main": "index.js",
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
